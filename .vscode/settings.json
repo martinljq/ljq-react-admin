@@ -1,0 +1,84 @@
+{
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  // 本地配备eslint
+  //自动保存的时候，eslint自动修复一些格式上的错误
+  "eslint.alwaysShowStatus": true,
+  // 每次保存的时候将代码按eslint格式进行修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.options": {
+    "extensions": [".js", ".vue"]
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+  // 不添加分号
+  "prettier.semi": false,
+  // 使用单引号
+  "prettier.singleQuote": true,
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "wxml": "html"
+  },
+  "git.autofetch": true,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorCustomizations": {},
+  // 关闭eslint
+  // "eslint.enable": true,
+
+  // tab一键成元素html标签
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.vue": "vue"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json"
+  },
+  "prettier.useTabs": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "vetur.format.options.tabSize": 4,
+  "files.autoSave": "afterDelay",
+  "cSpell.userWords": ["qiankun"],
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "minapp-vscode.disableAutoConfig": true,
+  "css.validate": true,
+  "less.validate": false,
+  "scss.validate": true,
+  "editor.guides.bracketPairs": true,
+  "vscodeGoogleTranslate.preferredLanguage": "Chinese (Simplified)",
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+  // "eslint.workingDirectories": [
+  // 	{
+  // 		"pattern": "./common-jslib/*/"
+  // 	}
+  // ]
+}
